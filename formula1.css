@@ -1,0 +1,124 @@
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Sezione Piloti */
+#piloti {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#piloti .piloti-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#piloti .pilota {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+#piloti .pilota img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#piloti .pilota h3 {
+    margin: 10px 0;
+}
+
+/* Sezione Gadget */
+#gadget {
+    background-color: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#gadget .gadget-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#gadget .gadget {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#gadget .gadget img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#gadget .gadget a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
